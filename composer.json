@@ -1,0 +1,30 @@
+{
+    "name": "armin/font-awesome-bundle",
+    "type": "symfony-bundle",
+    "description": "Symfony bundle to provide Font Awesome svg icons as inline svg sprite.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Armin Vieweg",
+            "email": "armin@v.ieweg.de",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0",
+        "ext-dom": "*",
+        "symfony/framework-bundle": "^4.0 | ^5.0",
+        "symfony/twig-bridge": "^4.0 | ^5.0",
+        "fortawesome/font-awesome": "^5.13"
+    },
+    "autoload": {
+        "psr-4": {
+            "Armin\\FontAwesomeBundle\\": "src/"
+        }
+    },
+    "extra": {
+        "symfony": {
+            "allow-contrib": "true"
+        }
+    }
+}

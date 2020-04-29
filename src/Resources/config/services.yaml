@@ -1,0 +1,9 @@
+services:
+
+    app.twig_font_awesome_extension:
+        public: false
+        class: Armin\FontAwesomeBundle\Twig\FontAwesomeExtension
+        arguments:
+            - "@kernel"
+        tags:
+            - { name: twig.extension }
